@@ -1,0 +1,41 @@
+/* technical classes */
+._main-container {
+  margin: auto;
+  max-width: 1200px;
+  /* font-family: "Roboto", sans-serif; */
+  /* padding-top: 50px; */
+}
+._center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* main css */
+.separator {
+  background-color: rgb(112, 79, 189);
+  height: 2px;
+  width: 100%;
+  margin: 50px 0px;
+}
+.section-title {
+  font-size: 25px;
+}
+/* ======================== */
+.color-changer {
+  width: 30vw;
+  height: 30vw;
+  background-color: black;
+  margin: 0px 15vw;
+  border: 1px dotted black;
+  flex-direction: column;
+}
+.change-col-btn {
+  width: 10vw;
+  height: 2.5vw;
+  background-color: cornflowerblue;
+  border-radius: 1px;
+  margin-bottom: 5vw;
+}
+.second-color {
+  background-color: white;
+}
