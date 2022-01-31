@@ -39,8 +39,8 @@ html {
 }
 /* ======================== */
 .color-changer {
-  width: 30rem;
-  height: 30rem;
+  width: 30vw;
+  height: 30vw;
   background-color: black;
   margin: 0px 5vw;
   border: 1px dotted black;
