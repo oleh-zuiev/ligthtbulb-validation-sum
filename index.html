@@ -18,16 +18,20 @@
         </div>
       </div>
       <div class="separator"></div>
-      <section>
-        <div class="group-control">
-          <p class="section-title">Greet somebody</p>
-          <label for=""></label>
-          <input id="name" type="text" />
-        </div>
-        <button id="showName">greet</button>
-        <div id="result"></div>
+      <section class="_center _comumn">
+        <p>type smth, but length has to be 2-5 characters</p>
+        <input
+          oninput="checkValidation(this)"
+          type="text"
+          class="text js-text"
+        />
       </section>
       <div class="separator"></div>
+      <section class="js-sumfunc-contaner _center _comumn">
+        <input type="number" class="num1 js-num1" />
+        <input type="number" class="num2 js-num2" />
+        <div><span>Result:</span><span class="js-sumfunc-result">0</span></div>
+      </section>
     </div>
     <script defer src="./JS/main.js"></script>
   </body>
